@@ -12,3 +12,20 @@
 .gallery__picture-full {
     margin-bottom: 0;
 }
+
+.gallery__picture-full img {
+    display: block;
+    box-shadow: 0 0 5px rgba(0, 1, 1, 0.2);
+}
+
+.gallery__picture-previews {
+    display: flex;
+    width: 90px;
+    margin: 0;
+    margin-right: 15px;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+    order: -1;
+}
