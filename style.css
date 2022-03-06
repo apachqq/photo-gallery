@@ -47,3 +47,10 @@
     outline: 3px solid #cccccc;
     outline-offset: -3px;
 }
+
+.gallery__picture-preview:focus {
+    top: -5px;
+    box-shadow: 0 3px 10px 2px rgba(0, 1, 1, 0.2);
+    filter: none;
+    opacity: 1;
+}
