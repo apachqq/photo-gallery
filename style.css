@@ -42,3 +42,8 @@
     opacity: 0.7;
     box-shadow: 0 0 5px rgba(0, 1, 1, 0.2);
 }
+
+.gallery__picture-preview:hover {
+    outline: 3px solid #cccccc;
+    outline-offset: -3px;
+}
