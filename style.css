@@ -54,3 +54,10 @@
     filter: none;
     opacity: 1;
 }
+
+.gallery__picture-preview img {
+    display: block;
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+}
