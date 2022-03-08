@@ -6,3 +6,9 @@ let pictures = [
 
 let thumbnails = document.querySelectorAll('.gallery__picture-preview')
 let fullPhoto = document.querySelector('.full-picture')
+
+let addThumbnailClickHandler = function (preview, picture) {
+    preview.addEventListener('click', function () {
+        fullPhoto.src = picture;
+    })
+}
