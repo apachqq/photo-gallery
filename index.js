@@ -12,3 +12,7 @@ let addThumbnailClickHandler = function (preview, picture) {
         fullPhoto.src = picture;
     })
 }
+
+for (let i = 0; i < thumbnails.length; i++) {
+    addThumbnailClickHandler(thumbnails[i], pictures[i]);
+}
